@@ -12,8 +12,8 @@ body{
 .main-content{
 display: grid;
 grid-template-columns: 1fr,1fr;
-grid-template-columns: 300px auto; 
-grid-template-rows: 1000px;
+grid-template-columns: 300px 700px; 
+height: 1000px;
 }
 .main-content{
 margin:30px 30px;
