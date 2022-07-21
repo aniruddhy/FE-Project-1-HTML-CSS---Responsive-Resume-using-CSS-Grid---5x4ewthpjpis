@@ -23,6 +23,8 @@ margin-left: 55px;
 
 }
 .left-section{
+    display: grid;
+    grid-template-columns: 1fr;
     border: 1px  red;
 background-color: rgb(49, 56, 70);
 border-style: dashed;
@@ -33,6 +35,8 @@ border-style: dashed;
 }
 .right-section{
 background-color:#ffffff;
+display: grid;
+grid-template-columns: 1fr;
 }
 .right-section:hover{
     background-color: rgb(158, 218, 241);
@@ -102,11 +106,12 @@ a{
 .skill-name div{
     text-align: left;
     font-size: 0.65rem;
+    font-weight: 0.65rem;
    padding-bottom: 0.5rem;
 }
 .progress-bar progress{
     height: 4px;
-    border: 1px solid white;
+    border: 1px white solid;
     
 }
 .right-main-content{
